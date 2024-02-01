@@ -1,0 +1,40 @@
+/* general*/
+
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --color-1: #46a6ff;
+  --color-2: #0273dd;
+  --color-3: #0065c4;
+  --color-4: #4BC800;
+  --color-5: #F90104;
+}
+
+
+/* header */
+.nav{
+  width: 100%;
+  height: 80px;
+  background-color: #0084fd;
+}
+
+.container-nav{
+  width: 1140px;
+  height: 100%;
+  display: flex;
+  background-color: var(--color-1);
+  }
+
+  .col-left{
+    width: 50%;
+    background-color: var(--color-2);
+  }
+
+  .col-right{
+    width: 50%;
+    background-color: var(--color-3);
+  }
