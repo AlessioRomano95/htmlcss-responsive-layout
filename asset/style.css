@@ -99,3 +99,16 @@
   background-color: #035aac;
   border: 1px solid #0131a1;
 }
+
+/*about*/
+.col-a{
+  width: 70%;
+  height: 700px;
+  background-color: #0084fd;
+}
+
+.col-p{
+  width: 30%;
+  height: 700px;
+  background-color: #78beff;
+}
