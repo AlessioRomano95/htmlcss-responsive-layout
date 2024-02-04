@@ -4,16 +4,17 @@
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
 }
 
 :root{
-  --color-1: #46a6ff;
-  --color-2: #0273dd;
+  --color-1: #b5ddff;
+  --color-2: #0084fd;
   --color-3: #0065c4;
-  --color-4: #035aac;
+  --color-4: #9792e4;
   --color-5: #0131a1;
   --color-6: #3485ff;
-  --color-7: #568eff;
+  --color-7: #0f1115;
 }
 
 
@@ -29,61 +30,210 @@
   width: 1140px;
   height: 100%;
   display: flex;
-  background-color: var(--color-1);
+  align-items: center;
   }
 
   .col-left{
     width: 50%;
-    background-color: var(--color-2);
   }
 
   .col-right{
     width: 50%;
-    background-color: var(--color-3);
+    text-align: end;
+  }
+
+  li{
+  list-style: none;
+  display: inline;
+  margin-left: 30px;
+  margin-right: 0;
+  color: white;
+}
+
+  #botton-nav{
+    background-color: white;
+    border-radius: 100px;
+    padding: 8px;
+    color:black;
   }
 
 /*main*/
 .container{
   width: 1140px;
-  height: 100%;
-  background-color: var(--color-1);
   margin-bottom:50px;
 }
 
 /*card cyan*/
 .row{
-  background-color: var(--color-1);
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.back-card-long{
-  width: 65%;
-  height: 350px;
-  background-color: var(--color-4);
+.card{
+  background-color: var(--color-1) ;
+  height: 360px;
+  width: 360px;
+  border-radius: 10px;
+  margin: 0;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.back-card-right{
-  width: 35%;
-  height: 350px;
-  background-color: var(--color-5);
+.fa-solid{
+  font-size: 5rem;
+  color: #0084fd;
 }
 
-.back-card{
-  width: calc(100% / 3);
-  height: 350px;
-  background-color: var(--color-6);
-  border: 1px solid #0131a1;
+.col-card-l{
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+
 }
+
+.col-card-r{
+  width: 45%;
+}
+
+#phone{
+  display: flex;
+  position:relative;
+  top: 82px;
+  width: 250px;
+}
+
+
+h3{
+  color: #0084fd;
+  margin-top: 30px;
+  font-size: 1.5rem;
+}
+
+#h3{
+  margin:20px;
+  text-align: left;
+}
+
+p{
+  margin:20px;
+  text-align: center;
+  line-height: 25px;
+  color: #5a6e7f;
+}
+
+#p{
+  margin:20px;
+  text-align: left;
+  line-height: 25px;
+  color: #5a6e7f;
+}
+
+.first .card:first-child{
+  width: 749px;
+  flex-direction:row;
+}
+
+.botton{
+  color:white;
+  background-color: #0084fd;
+  width: 170px;
+  border-radius: 20px;
+  padding: 5px 40px;
+  display: flex;
+  text-align: left;
+  margin-left: 20px;
+  margin-top:20px
+  
+}
+
+.fa-apple{
+  margin-right: 10px;
+  margin-left:0px;
+}
+
 
 /*planning*/
-.col{
-  width: 50%;
-  height: 900px;
+.second{
+  width: 100%;
+  margin-bottom:50px;
   background-color: var(--color-4);
-  border: 1px solid #0131a1;
 }
 
+.container-planning{
+  width: 900px;
+}
+
+.col{
+  width: 50%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.col-2{
+  width: 50%;
+  height: 800px;
+  display: flex;
+}
+
+.plan{
+  width: 400px;
+}
+
+#p-plan{
+  text-align: left;
+  color: white;
+}
+
+.h4{
+  font-size: 2rem;
+  color: white;
+  margin-left:20px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.card-w{
+  position: relative;
+  top: 170px;
+  background-color: white;
+  width: 410px;
+  height: 560px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.plan-2{
+  width: 300px;
+  height: 300px;
+}
+
+.down{
+  color: #000;
+  font-size: 1rem;
+  background-color: var(--color-4);
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.h4-b{
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+#p-b{
+  color: #000;
+  margin: 50px;
+  margin-bottom: 10px;
+}
 /*testimonial*/
 .row-t{
   width: 100%;
@@ -129,4 +279,10 @@ background-color: #7b76bf;
 .grey{
   background-color: #333333;
   height: 200px;
+}
+/*------------------------------*/
+
+
+@media screen and (min-width:1200px){
+
 }
